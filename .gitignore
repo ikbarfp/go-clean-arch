@@ -1,0 +1,29 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+go-clean-arch
+
+# Unused temporary file
+*.bak
+
+# Config file
+config.yml
+config.yaml
+
+# Unused folder
+.idea/
+
+# Dependecies
+/vendor
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
